@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>MOVIES</title>
+		<link rel="stylesheet" href="bootstrap-4.3.1-dist\css\bootstrap.min.css" />
+		<link rel="icon" href="./img/logo.png" />
+		<link rel="stylesheet" type="text/css" href="css\main-login.css" />
+		<link rel="stylesheet" type="text/css" href="css\top10.css" />
+		<link href="fontawesome-free-5.8.1-web/css/all.css" rel="stylesheet" />
+		<script defer src="fontawesome-free-5.8.1-web/js/all.js"></script>
+	</head>
+	<body>
+		<!-- /*header*/-->
+
+		<header class="row justify-content-around align-items-center">
+			<div
+				class="col-4 row align-items-center justify-content-around"
+				id="logo"
+			>
+				<div>
+					<img src="./img/logo.png" style="width: 50px" />
+				</div>
+
+				<h1 id="brand">Movies</h1>
+			</div>
+
+			<div id="navication" class="col-6 pt-3">
+				<nav>
+					<ul>
+						<li class="margin-right-30px Home">
+							<a class="a-nav active" href="MainPage.html">Home</a>
+						</li>
+						<li class="margin-right-30px">
+							<a class="a-nav" href="About.html">About</a>
+						</li>
+						<li class="margin-right-30px">
+							<a class="a-nav" href="Artists.html">Artists</a>
+						</li>
+						<li class="margin-right-30px">
+							<a class="a-nav" href="top10.html">Movies</a>
+						</li>
+						<li id="Register" class="margin-right-30px Register">
+							<a class="a-nav" href="Register.html">Register</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+
+			<div id="menudiv" class="dropdown col-2 m-3">
+				<button
+					style="background-color: white; border: none"
+					class="btn dropdown-toggle"
+					id="dropdownNavButton"
+					data-toggle="dropdown"
+					aria-haspopup="true"
+					aria-expanded="false"
+				>
+					<img src="icon/menu.png" height="35px" />
+				</button>
+				<div class="dropdown-menu" aria-labelledby="dropdownNavButton">
+					<a class="dropdown-item Home" href="MainPage.html">Home</a>
+					<a class="dropdown-item" href="About.html">About</a>
+					<a class="dropdown-item" href="Artists.html">Artists</a>
+					<a class="dropdown-item" href="top10.html">Movies</a>
+					<a class="dropdown-item Register" href="Register.html">Register</a>
+				</div>
+			</div>
+		</header>
+		<!-- /*end header*/-->
+
+		<!--section top10 -->
+		<!--start Movies-->
+		<div id="movie-section">
+			<!-- tag element -->
+			<div id="tag_element" style="position: absolute; top: 0px">
+				<a href="#section_A"
+					><div
+						class="tag_element"
+						style="background-color: #5a5; position: fixed; top: 250px"
+					>
+						A
+					</div></a
+				>
+				<a href="#section_C"
+					><div
+						class="tag_element"
+						style="background-color: #55a; position: fixed; top: 300px"
+					>
+						C
+					</div></a
+				>
+				<a href="#section_T"
+					><div
+						class="tag_element"
+						style="background-color: #f44; position: fixed; top: 350px"
+					>
+						T
+					</div></a
+				>
+				<a href="#section_M"
+					><div
+						class="tag_element"
+						style="background-color: #bb1; position: fixed; top: 400px"
+					>
+						M
+					</div></a
+				>
+			</div>
+
+			<!--section Action -->
+			<div id="section_A" class="container secmov">
+				<div class="container1" style="margin-top: 25px; margin-bottom: 25px">
+					<div>
+						<h1 style="text-align: center" class="p-2">Action</h1>
+					</div>
+
+					<!-- Full-width images with number text -->
+					<div class="mySlides">
+						<div class="row Action">
+							<div class="col-lg-2 col-md-4 col-sm-6 col-12 movie">
+								<a id="movieshow" href="ShowMoviesVideo.html"
+									><img
+										class="imgSlide1"
+										src="IMAGE Movies/Action/TOMB RAIDER.jpg"
+										style="width: 100%"
+									/>
+								</a>
+							</div>
+							<div class="col-lg-2 col-md-4 col-sm-6 col-6 xshidden">
+								<img
+									class="imgSlide1"
+									src="IMAGE Movies/Action/TOMB RAIDER.jpg"
+									style="width: 100%"
+								/>
+							</div>
+							<div class="col-lg-2 col-md-4 smhidden xshidden">
+								<img
+									class="imgSlide1"
+									src="IMAGE Movies/Action/Mission Impossible Fallout.jpg"
+									style="width: 100%"
+								/>
+							</div>
+							<div class="col-lg-2 mdhidden smhidden xshidden">
+								<img
+									class="imgSlide1"
+									src="IMAGE Movies/Action/ROBIN HOOD.jpg"
+									style="width: 100%"
+								/>
+							</div>
+							<div class="col-lg-2 mdhidden smhidden xshidden">
+								<img
+									class="imgSlide1"
+									src="IMAGE Movies/Action/12 STRONG.jpg"
+									style="width: 100%"
+								/>
+							</div>
+							<div class="col-lg-2 mdhidden smhidden xshidden">
+								<img
+									class="imgSlide1"
+									src="IMAGE Movies/Action/RAMPAGE.jpg"
+									style="width: 100%"
+								/>
+							</div>
+						</div>
+					</div>
+
+					<div class="mySlides">
+						<div class="row">
+							<div class="col-lg-2 col-md-4 col-sm-6 col-12">
+								<img
+									class="imgSlide1"
+									src="IMAGE Movies/Action/Avengers-Infinity_War.jpg"
+									style="width: 100%"
+								/>
+							</div>
+							<div class="col-lg-2 col-md-4 col-sm-6 xshidden">
+								<img
+									class="imgSlide1"
+									src="IMAGE Movies/Action/Black Panther.jpg"
+									style="width: 100%"
+								/>
+							</div>
+							<div class="col-lg-2 col-md-4 smhidden xshidden">
+								<img
+									class="imgSlide1"
+									src="IMAGE Movies/Action/WONDER WOMAN.jpg"
+									style="width: 100%"
+								/>
+							</div>
+							<div class="col-lg-2 mdhidden smhidden xshidden">
+								<img
+									class="imgSlide1"
+									src="IMAGE Movies/Action/JOHN WICK.jpg"
+									style="width: 100%"
+								/>
+							</div>
+							<div class="col-lg-2 mdhidden smhidden xshidden">
+								<img
+									class="imgSlide1"
+									src="IMAGE Movies/Action/Captain_america_civil_war_ver3.jpg"
+									style="width: 100%"
+								/>
+							</div>
+							<div class="col-lg-2 mdhidden smhidden xshidden">
+								<img
+									class="imgSlide1"
+									src="IMAGE Movies/Action/Ant-Man-and-the-Wasp.jpg"
+									style="width: 100%"
+								/>
+							</div>
+						</div>
+					</div>
+
+					<!-- Next and previous buttons -->
+					<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+					<a class="next" onclick="plusSlides(1)">&#10095;</a>
+				</div>
+			</div>
+
+			<!--section comedy -->
+			<div id="section_C" class="container secmov">
+				<div class="container2" style="margin-top: 25px; margin-bottom: 25px">
+					<div>
+						<h1 style="text-align: center" class="p-2">Comedy</h1>
+					</div>
+
+					<!-- Full-width images with number text -->
+					<div class="mySlides_C">
+						<div class="row">
+							<div class="col-lg-2 col-md-4 col-sm-6 col-12 movie">
+								<img
+									class="imgSlide1"
+									src="image Movies/comedy/LIFE OF THE PARTY.jpg"
+									style="width: 100%"
+								/>
+							</div>
+							<div class="col-lg-2 col-md-4 col-sm-6 xshidden">
+								<img
+									class="imgSlide1"
+									src="image Movies/comedy/ANCHORMAN.jpg"
+									style="width: 100%"
+								/>
+							</div>
+							<div class="col-lg-2 col-md-4 smhidden xshidden">
+								<img
+									class="imgSlide1"
+									src="image Movies/comedy/BLOCKERS.png"
+									style="width: 100%"
+								/>
+							</div>
+							<div class="col-lg-2 mdhidden smhidden xshidden">
+								<img
+									class="imgSlide1"
+									src="image Movies/comedy/Game-Night.jpg"
+									style="width: 100%"
+								/>
+							</div>
+							<div class="col-lg-2 mdhidden smhidden xshidden">
+								<img
+									class="imgSlide1"
+									src="image Movies/comedy/Dumb-and-Dumber-poster.jpg"
+									style="width: 100%"
+								/>
+							</div>
+							<div class="col-lg-2 mdhidden smhidden xshidden">
+								<img
+									class="imgSlide1"
+									src="image Movies/comedy/THE SPY WHO DUMPED ME.jpg"
+									style="width: 100%"
+								/>
+							</div>
+						</div>
+					</div>
+
+					<div class="mySlides_C">
+						<div class="row">
+							<div class="col-lg-2 col-md-4 col-sm-6 col-12">
+								<img
+									class="imgSlide1"
+									src="image Movies/comedy/Twenty_two_jump_street_ver2.jpg"
+									style="width: 100%"
+								/>
+							</div>
+							<div class="col-lg-2 col-md-4 col-sm-6 xshidden">
+								<img
+									class="imgSlide1"
+									src="image Movies/comedy/MEAN GIRLS.jpg"
+									style="width: 100%"
+								/>
+							</div>
+							<div class="col-lg-2 col-md-4 smhidden xshidden">
+								<img
+									class="imgSlide1"
+									src="image Movies/comedy/HOLMIES.jfif"
+									style="width: 100%"
+								/>
+							</div>
+							<div class="col-lg-2 mdhidden smhidden xshidden">
+								<img
+									class="imgSlide1"
+									src="image Movies/comedy/Johnny-English-Strikes-Again.jpg"
+									style="width: 100%"
+								/>
+							</div>
+							<div class="col-lg-2 mdhidden smhidden xshidden">
+								<img
+									class="imgSlide1"
+									src="image Movies/comedy/FATHER FIGURES.jpg"
+									style="width: 100%"
+								/>
+							</div>
+							<div class="col-lg-2 mdhidden smhidden xshidden">
+								<img
+									class="imgSlide1"
+									src="image Movies/comedy/LANDLINE.jpg"
+									style="width: 100%"
+								/>
+							</div>
+						</div>
+					</div>
+
+					<!-- Next and previous buttons -->
+					<a class="prev" onclick="plusSlides_C(-1)">&#10094;</a>
+					<a class="next" onclick="plusSlides_C(1)">&#10095;</a>
+				</div>
+			</div>
+
+			<!--section Cartoon -->
+			<div id="section_T" class="container secmov">
+				<div class="container3" style="margin-top: 25px; margin-bottom: 25px">
+					<div>
+						<h1 style="text-align: center" class="p-2">Cartoon</h1>
+					</div>
+
+					<!-- Full-width images with number text -->
+					<div class="mySlides_T">
+						<div class="row">
+							<div class="col-lg-2 col-md-4 col-sm-6 col-12 movie">
+								<img
+									class="imgSlide1"
+									src="image Movies/Cartoon/aladdin-1992.jpg"
+									style="width: 100%"
+								/>
+							</div>
+							<div class="col-lg-2 col-md-4 col-sm-6 xshidden">
+								<img
+									class="imgSlide1"
+									src="image Movies/Cartoon/Shrek.jpg"
+									style="width: 100%"
+								/>
+							</div>
+							<div class="col-lg-2 col-md-4 smhidden xshidden">
+								<img
+									class="imgSlide1"
+									src="image Movies/Cartoon/Ice-Age.jpg"
+									style="width: 100%"
+								/>
+							</div>
+							<div class="col-lg-2 mdhidden smhidden xshidden">
+								<img
+									class="imgSlide1"
+									src="image Movies/Cartoon/Lego_movie_ver9.jpg"
+									style="width: 100%"
+								/>
+							</div>
+							<div class="col-lg-2 mdhidden smhidden xshidden">
+								<img
+									class="imgSlide1"
+									src="image Movies/Cartoon/ZOOTOPIA.jpg"
+									style="width: 100%"
+								/>
+							</div>
+							<div class="col-lg-2 mdhidden smhidden xshidden">
+								<img
+									class="imgSlide1"
+									src="image Movies/Cartoon/DRAGON.jpg"
+									style="width: 100%"
+								/>
+							</div>
+						</div>
+					</div>
+
+					<div class="mySlides_T">
+						<div class="row">
+							<div class="col-lg-2 col-md-4 col-sm-6 col-12">
+								<img
+									class="imgSlide1"
+									src="image Movies/Cartoon/The-Boss-Baby-2017.jpg"
+									style="width: 100%"
+								/>
+							</div>
+							<div class="col-lg-2 col-md-4 col-sm-6 xshidden">
+								<img
+									class="imgSlide1"
+									src="image Movies/Cartoon/UP.jpg"
+									style="width: 100%"
+								/>
+							</div>
+							<div class="col-lg-2 col-md-4 smhidden xshidden">
+								<img
+									class="imgSlide1"
+									src="image Movies/Cartoon/WRECK-IT RALPH 2.jpg"
+									style="width: 100%"
+								/>
+							</div>
+							<div class="col-lg-2 mdhidden smhidden xshidden">
+								<img
+									class="imgSlide1"
+									src="image Movies/Cartoon/KUNG FU PANDA.jpg"
+									style="width: 100%"
+								/>
+							</div>
+
+							<div class="col-lg-2 mdhidden smhidden xshidden">
+								<img
+									class="imgSlide1"
+									src="image Movies/Cartoon/MOANA.jpg"
+									style="width: 100%"
+								/>
+							</div>
+							<div class="col-lg-2 mdhidden smhidden xshidden">
+								<img
+									class="imgSlide1"
+									src="image Movies/Cartoon/Tangled.png"
+									style="width: 100%"
+								/>
+							</div>
+						</div>
+					</div>
+
+					<!-- Next and previous buttons -->
+					<a class="prev" onclick="plusSlides_T(-1)">&#10094;</a>
+					<a class="next" onclick="plusSlides_T(1)">&#10095;</a>
+				</div>
+			</div>
+
+			<!--section Mix -->
+			<div id="section_M" class="container">
+				<div>
+					<h1 style="text-align: center" class="p-3">Mix</h1>
+				</div>
+
+				<div class="row">
+					<figure class="col-lg-3 col-md-4 col-sm-6 col-12">
+						<img
+							src="img/films/Focus 2015.png"
+							alt="The Pulpit Rock"
+							width="304"
+							height="228"
+						/>
+						<figcaption>Focus 2015</figcaption>
+					</figure>
+
+					<figure class="col-lg-3 col-md-4 col-sm-6 col-12">
+						<img src="img/films/warcraft.48861.jpg" alt="" />
+						<figcaption>warcraft.48861</figcaption>
+					</figure>
+
+					<figure class="col-lg-3 col-md-4 col-sm-6 col-12">
+						<img src="img/films/A Hologram For The King 2016.jpg" alt="" />
+						<figcaption>A Hologram For The King</figcaption>
+					</figure>
+
+					<figure class="col-lg-3 col-md-4 col-sm-6 col-12">
+						<img src="img/films/Come And Find Me 2016.jpg" alt="" />
+						<figcaption>Come And Find Me</figcaption>
+					</figure>
+				</div>
+
+				<div class="row">
+					<figure class="col-lg-3 col-md-4 col-sm-6 col-12">
+						<img src="img/films/Boyka Undisputed 2016.jpg" alt="" />
+						<figcaption>Boyka Undisputed</figcaption>
+					</figure>
+
+					<figure class="col-lg-3 col-md-4 col-sm-6 col-12">
+						<img src="img/films/Body Of Lies 2008.jpg" alt="" />
+						<figcaption>Body Of Lies</figcaption>
+					</figure>
+
+					<figure class="col-lg-3 col-md-4 col-sm-6 col-12">
+						<img src="img/films/Deepwater Horizon 2016.jpg" alt="" />
+						<figcaption>Deepwater Horizon</figcaption>
+					</figure>
+
+					<figure class="col-lg-3 col-md-4 col-sm-6 col-12">
+						<img src="img/films/Jack Reacher Never Go Back 2016.jpg" alt="" />
+
+						<figcaption>Jack Reacher Never Go Back</figcaption>
+					</figure>
+				</div>
+
+				<div class="row">
+					<figure class="col-lg-3 col-md-4 col-sm-6 col-12">
+						<img src="img/films/Max Steel 2016.jpg" alt="" />
+						<figcaption>Max Steel</figcaption>
+					</figure>
+
+					<figure class="col-lg-3 col-md-4 col-sm-6 col-12">
+						<img src="img/films/Maigret Sets A Trap 2016.jpg" alt="" />
+						<figcaption>Maigret Sets A Trap</figcaption>
+					</figure>
+
+					<figure class="col-lg-3 col-md-4 col-sm-6 col-12">
+						<img src="img/films/The Accountant 2016 .jpg" alt="" />
+						<figcaption>The Accountant</figcaption>
+					</figure>
+
+					<figure class="col-lg-3 col-md-4 col-sm-6 col-12">
+						<img src="img/films/The Space Between Us 2017.jpg" alt="" />
+
+						<figcaption>The Space Between Us</figcaption>
+					</figure>
+				</div>
+			</div>
+
+			<!--End section top10 -->
+			<style>
+				.secmov {
+					border-bottom: 2px solid antiquewhite;
+					padding-bottom: 20px;
+				}
+			</style>
+		</div>
+		<!--end Movies-->
+		<!--End section top10 -->
+
+		<!--Footer-->
+		<footer id="footer">
+			<div>
+				<nav>
+					<ul style="margin: 0; justify-content: center">
+						<li>
+							<a href="https://www.facebook.com/">
+								<img src="icon/facebook.png" />
+							</a>
+						</li>
+						<li>
+							<a href="https://www.linkedin.com/">
+								<img src="icon/linkedin.png" />
+							</a>
+						</li>
+
+						<li>
+							<a href="twitter"><img src="icon/twitter.png" /></a>
+						</li>
+						<li>
+							<a href="https://www.google.com/"
+								><img src="icon/search.png"
+							/></a>
+						</li>
+						<li>
+							<a href="https://www.instagram.com"
+								><img src="icon/instagram.png"
+							/></a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+			<div id="footer-inner">
+				<p>
+					&copy; Copyright <a href="#">Your Site</a> &#124;
+					<a href="#">Terms of Use</a> &#124;
+					<a href="#">Privacy Policy</a>
+				</p>
+				<div class="clr"></div>
+			</div>
+		</footer>
+		<!-- end Footer-->
+	</body>
+	<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+	<script src="bootstrap-4.3.1-dist/js/bootstrap.bundle.min.js"></script>
+	<script type="text/javascript" src="js/top10.js"></script>
+	<script type="text/javascript" src="js/all.js"></script>
+</html>

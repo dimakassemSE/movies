@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>About</title>
+		<link rel="stylesheet" href="bootstrap-4.3.1-dist\css\bootstrap.min.css" />
+		<link rel="icon" href="./img/logo.png" />
+		<link rel="stylesheet" type="text/css" href="css\main-login.css" />
+
+		<link href="fontawesome-free-5.8.1-web/css/all.css" rel="stylesheet" />
+		<script defer src="fontawesome-free-5.8.1-web/js/all.js"></script>
+		<style>
+			#login {
+				position: relative;
+				background: url("icon/sec1.jpeg") left center no-repeat;
+				background-size: cover;
+				padding-top: 170px;
+				padding-bottom: 170px;
+			}
+		</style>
+	</head>
+	<body>
+		<!-- /*header*/-->
+
+		<header class="row justify-content-around align-items-center">
+			<div
+				class="col-4 row align-items-center justify-content-around"
+				id="logo"
+			>
+				<div>
+					<img src="./img/logo.png" style="width: 50px" />
+				</div>
+
+				<h1 id="brand">Movies</h1>
+			</div>
+
+			<div id="navication" class="col-6 pt-3">
+				<nav>
+					<ul>
+						<li class="margin-right-30px Home">
+							<a class="a-nav active" href="MainPage.html">Home</a>
+						</li>
+						<li class="margin-right-30px">
+							<a class="a-nav" href="About.html">About</a>
+						</li>
+						<li class="margin-right-30px">
+							<a class="a-nav" href="Artists.html">Artists</a>
+						</li>
+						<li class="margin-right-30px">
+							<a class="a-nav" href="top10.html">Movies</a>
+						</li>
+						<li id="Register" class="margin-right-30px Register">
+							<a class="a-nav" href="Register.html">Register</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+
+			<div id="menudiv" class="dropdown col-2 m-3">
+				<button
+					style="background-color: white; border: none"
+					class="btn dropdown-toggle"
+					id="dropdownNavButton"
+					data-toggle="dropdown"
+					aria-haspopup="true"
+					aria-expanded="false"
+				>
+					<img src="icon/menu.png" height="35px" />
+				</button>
+				<div class="dropdown-menu" aria-labelledby="dropdownNavButton">
+					<a class="dropdown-item Home" href="MainPage.html">Home</a>
+					<a class="dropdown-item" href="About.html">About</a>
+					<a class="dropdown-item" href="Artists.html">Artists</a>
+					<a class="dropdown-item" href="top10.html">Movies</a>
+					<a class="dropdown-item Register" href="Register.html">Register</a>
+				</div>
+			</div>
+		</header>
+		<!-- /*end header*/-->
+		<!-- /*section sign in*/-->
+		<section id="login">
+			<div class="text-center">
+				<div
+					class="jumbotron jumbotron-fluid"
+					style="opacity: 0.5; color: black; font-style: italic"
+				>
+					<div class="container">
+						<h1 class="display-4">Movies</h1>
+						<p class="lead">
+							Watch your favorite movies and interact with your favorite stars
+							through your feedback and rating for their movies Do not forget to
+							interact with your favorite movies with a small heart
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- end section sign in-->
+		<!--Footer-->
+		<footer id="footer">
+			<div>
+				<nav>
+					<ul style="margin: 0; justify-content: center">
+						<li>
+							<a href="https://www.facebook.com/">
+								<img src="icon/facebook.png" />
+							</a>
+						</li>
+						<li>
+							<a href="https://www.linkedin.com/">
+								<img src="icon/linkedin.png" />
+							</a>
+						</li>
+
+						<li>
+							<a href="twitter"><img src="icon/twitter.png" /></a>
+						</li>
+						<li>
+							<a href="https://www.google.com/"
+								><img src="icon/search.png"
+							/></a>
+						</li>
+						<li>
+							<a href="https://www.instagram.com"
+								><img src="icon/instagram.png"
+							/></a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+			<div id="footer-inner">
+				<p>
+					&copy; Copyright <a href="#">Your Site</a> &#124;
+					<a href="#">Terms of Use</a> &#124;
+					<a href="#">Privacy Policy</a>
+				</p>
+				<div class="clr"></div>
+			</div>
+		</footer>
+		<!-- end Footer-->
+	</body>
+	<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+	<script src="bootstrap-4.3.1-dist/js/bootstrap.bundle.min.js"></script>
+	<script src="js/all.js"></script>
+</html>

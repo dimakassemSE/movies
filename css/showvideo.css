@@ -1,0 +1,23 @@
+video
+{
+    width: 100%;
+    border-width: 2px;
+    border-style: solid;
+
+}
+.icon
+{
+    height: 40px;
+    width: 40px;
+    margin: 10px;
+}
+.comment
+{
+    box-shadow: 1px 1px aliceblue;
+}
+.rowheadercomment
+{
+    margin: 10px;
+    border-bottom-style: solid;
+    border-bottom-color: cornflowerblue;
+}
